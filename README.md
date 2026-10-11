@@ -1,8 +1,5 @@
 # Imagefree Skill
 
-把 [AstrBot Imagefree 浏览器插件](https://github.com/sl251/astrbot-Imagefree-t2i-brower)
-提取成通用 Agent Skill：**先 HTTP，遇到可恢复失败后自动尝试一次浏览器自动化**。
-不依赖 AstrBot；HTTP 路径只需 Python 标准库，浏览器路径按需加载 Playwright。
 
 ## 安装
 
@@ -59,7 +56,3 @@ python -m unittest discover -s tests -v
 设置 `IMAGEFREE_TEST_BROWSER=1` 可额外运行本地服务上的真实浏览器回退测试。
 测试默认不调用线上生成接口；通过测试不代表线上服务始终可用。
 
-## 来源
-
-作者：sl251。基于原插件提交 `18e90fdae615ca85f07179f0be7fc32c9f852280` 的
-接口约定与浏览器调用方式重构，移除了聊天事件、工具注册、白名单和 AstrBot 生命周期依赖。
