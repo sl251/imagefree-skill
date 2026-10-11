@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+imagefree-output/
+browser-profile/
+browser_profile/
+test-output/
+*.log

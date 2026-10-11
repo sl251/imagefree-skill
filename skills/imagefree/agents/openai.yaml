@@ -1,0 +1,4 @@
+interface:
+  display_name: "Imagefree"
+  short_description: "Generate images via HTTP with browser fallback"
+  default_prompt: "Use $imagefree to generate an image with Imagefree, trying HTTP before browser automation."
